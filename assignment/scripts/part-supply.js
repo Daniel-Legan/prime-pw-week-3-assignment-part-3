@@ -76,9 +76,10 @@ console.log('The total number of parts available is', total);
 console.log('9. Filling boxes with a "while" loop');
 let parts = 572;
 let i = 0;
+console.log('Initial parts', parts);
 while (parts >= 7) {
     parts-=7;
     i++;
 }
-console.log('the remaining parts are', parts);
-console.log('the number of boxes required is', i);
+console.log('Number of boxes filled:', i);
+console.log('Remaining parts left over:', parts);
